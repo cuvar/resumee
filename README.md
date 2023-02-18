@@ -1,3 +1,3 @@
 # resumee
 
-personal resumee on (resumee.cuvar.dev)[https://resumee.cuvar.dev]
+personal resumee on [resumee.cuvar.dev](resumee.cuvar.dev)
