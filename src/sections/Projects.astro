@@ -1,7 +1,20 @@
 ---
 import Title from "../components/Title.astro";
+import Project from "../components/Project.astro";
 ---
 
 <div>
   <Title>Projects</Title>
+  <div class="grid grid-cols-2 mt-4 gap-y-4">
+    <Project name="panal" desc="widget-based dashboard for managing life" />
+    <Project
+      name="vocab"
+      desc="A tool for choosing a word to learn every day"
+    />
+    <Project name="rswe" desc="simple widget engine for react" />
+    <Project
+      name="gisa-tool"
+      desc="Tool for analyzing the emission of a website"
+    />
+  </div>
 </div>
