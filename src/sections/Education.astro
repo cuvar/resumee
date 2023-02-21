@@ -1,10 +1,11 @@
 ---
 import Title from "../components/Title.astro";
+import Location from "../components/Location.astro";
 ---
 
 <div>
   <Title>Education</Title>
-  <div class="flex flex-col ml-4 mt-4 mb-6">
+  <div class="flex flex-col mt-4 mb-6">
     <div class="flex justify-between">
       <a
         class="text-neutral-700 underline decoration-dotted font-bold text-xl"
@@ -13,10 +14,7 @@ import Title from "../components/Title.astro";
         rel="noopener noreferrer"
         >Corporate State University Baden-Württemberg Karlsruhe</a
       >
-      <div class="italic text-right text-zinc-400">
-        <div>Sep 2020 - Sep 2023</div>
-        <div>Karlsruhe</div>
-      </div>
+      <Location city="Karlsruhe" start="Sep 2020" end="Sep 2023" />
     </div>
     <div class="text-zinc-500 text-lg font-bold">
       Field of study: Computer Science; Bachelor's degree
