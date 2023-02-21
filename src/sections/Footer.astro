@@ -1,9 +1,3 @@
-<script lang="ts">
-  function onClick() {
-    console.log("hello world");
-  }
-</script>
-
 <footer class="w-full mt-16">
   <div class="flex justify-between text-sm text-zinc-500">
     <div>February 2023</div>
@@ -21,8 +15,10 @@
       rel="noopener noreferrer"
       class="hover:underline active:text-zinc-900">Source Code</a
     >
-    <button on:click={onClick} class="underline decoration-dotted"
-      >PDF version</button
+    <a
+      class="underline decoration-dotted"
+      href="/luca-mueller-resumee.pdf"
+      rel="noreferrer noopener">PDF version</a
     >
   </div>
 </footer>
