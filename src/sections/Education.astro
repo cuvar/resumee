@@ -1,21 +1,20 @@
 ---
 import Title from "../components/Title.astro";
 import Location from "../components/Location.astro";
+import SectionTitle from "../components/SectionTitle.astro";
 ---
 
 <div>
   <Title>Education</Title>
   <div class="flex flex-col mt-4 mb-6">
-    <div class="flex justify-between">
-      <a
-        class="text-neutral-700 underline decoration-dotted font-bold text-xl"
-        href="https://www.karlsruhe.dhbw.de/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Corporate State University Baden-Württemberg Karlsruhe</a
-      >
+    <SectionTitle
+      title="Corporate State University Baden-Württemberg Karlsruhe"
+      link="https://www.karlsruhe.dhbw.de/"
+      job=""
+    >
       <Location city="Karlsruhe" start="Sep 2020" end="Sep 2023" />
-    </div>
+    </SectionTitle>
+
     <div class="text-zinc-500 text-lg font-bold">
       Field of study: Computer Science; Bachelor's degree
     </div>

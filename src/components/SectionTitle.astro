@@ -1,0 +1,28 @@
+---
+const { title, link, job } = Astro.props;
+
+const hasJob = job.trim().length > 0;
+const hasLink = link.trim().length > 0;
+---
+
+<div class="flex flex-col md:flex-row justify-between">
+  <div class="flex space-x-1 items-center">
+    {
+      hasLink ? (
+        <a
+          class="text-neutral-700 underline decoration-dotted font-bold text-xl"
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {title}
+        </a>
+      ) : (
+        <div class="text-neutral-700 font-bold text-xl">{title}</div>
+      )
+    }
+
+    {hasJob && <p class="text-zinc-400 text-lg">· {job}</p>}
+  </div>
+  <slot />
+</div>

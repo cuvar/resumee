@@ -2,7 +2,9 @@
 const { city, start, end } = Astro.props;
 ---
 
-<div class="italic text-right text-sm sm:text-base text-zinc-400">
+<div
+  class="italic sm:text-right text-sm sm:text-base text-zinc-400 flex flex-row md:flex-col space-x-2"
+>
   <div>{start} - {end}</div>
   <div>{city}</div>
 </div>

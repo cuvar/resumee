@@ -1,19 +1,15 @@
 ---
 import Title from "../components/Title.astro";
 import Location from "../components/Location.astro";
+import SectionTitle from "../components/SectionTitle.astro";
 ---
 
 <div>
   <Title>Activities</Title>
   <div class="flex flex-col mt-4 mb-6">
-    <div class="flex justify-between">
-      <div class="flex space-x-2 items-center">
-        <div class="text-neutral-700 font-bold text-xl">
-          VT Project Administration@VT
-        </div>
-      </div>
+    <SectionTitle title="VT Project Administration@VT" link="" job="">
       <Location city="Walldorf" start="Jan 2021" end="Sep 2023" />
-    </div>
+    </SectionTitle>
 
     <div class="text-lg">
       Administrated other VT-project's cloud technologies by maintaining AWS and

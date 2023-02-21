@@ -1,23 +1,20 @@
 ---
 import Title from "../components/Title.astro";
 import Location from "../components/Location.astro";
+import SectionTitle from "../components/SectionTitle.astro";
 ---
 
 <div>
   <Title>Work</Title>
   <div class="flex flex-col mt-4 mb-6">
-    <div class="flex justify-between">
-      <div class="flex space-x-2 items-center">
-        <a
-          class="text-neutral-700 underline decoration-dotted font-bold text-xl"
-          href="https://sap.com"
-          target="_blank"
-          rel="noopener noreferrer">SAP SE</a
-        >
-        <p class="text-zinc-400 text-lg">· Vocational Training student</p>
-      </div>
+    <SectionTitle
+      title="SAP SE"
+      link="https://sap.com"
+      job="Vocational Training student"
+    >
       <Location city="Walldorf" start="Sep 2020" end="Sep 2023" />
-    </div>
+    </SectionTitle>
+
     <div class="text-lg">
       <p>worked as student</p>
       <ul class="list-disc list-inside">
@@ -33,18 +30,14 @@ import Location from "../components/Location.astro";
     </div>
   </div>
   <div class="flex flex-col mt-4 mb-6">
-    <div class="flex justify-between">
-      <div class="flex space-x-2 items-center">
-        <a
-          class="text-neutral-700 underline decoration-dotted font-bold text-xl"
-          href="https://www.karlsruhe.dhbw.de/"
-          target="_blank"
-          rel="noopener noreferrer">DLRG Ortsgruppe Landau e.V.</a
-        >
-        <p class="text-zinc-400 text-lg">· Fullstack Software Engineer</p>
-      </div>
+    <SectionTitle
+      title="DLRG Ortsgruppe Landau e.V."
+      link="https://landau.dlrg.de/"
+      job="Fullstack Software Engineer"
+    >
       <Location city="Landau" start="Feb 2021" end="Feb 2023" />
-    </div>
+    </SectionTitle>
+
     <div class="text-lg">
       <p>
         Build and led the development of a software for tracking COVID-19 rapid
