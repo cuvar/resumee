@@ -4,7 +4,7 @@
   }
 </script>
 
-<footer class="w-full mt-16 mb-4">
+<footer class="w-full mt-16">
   <div class="flex justify-between text-sm text-zinc-500">
     <div>February 2023</div>
     <a
