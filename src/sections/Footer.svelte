@@ -1,6 +1,6 @@
 <footer class="w-full mt-16">
   <div
-    class="grid grid-cols-1 gap-2 sm:grid-cols-3 md:grid-cols-5 grid-rows-2 md:grid-rows-1 text-sm text-zinc-500"
+    class="grid grid-cols-1 gap-4 sm:grid-cols-3 md:grid-cols-5 grid-rows-2 md:grid-rows-1 text-sm text-zinc-500"
   >
     <div class="text-center">February 2023</div>
     <a
