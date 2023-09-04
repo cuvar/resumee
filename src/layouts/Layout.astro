@@ -2,7 +2,7 @@
 export interface Props {
   title: string;
 }
-
+import CookieConsentComponent from "../utils/cookie/CookieConsentComponent";
 const { title } = Astro.props;
 ---
 
@@ -17,6 +17,15 @@ const { title } = Astro.props;
   </head>
   <body class="w-screen lg:px-20 min-h-screen">
     <slot />
+    <script
+      is:inline
+      defer
+      type="text/plain"
+      data-cookiecategory="analytics"
+      data-domain="resumee.cuvar.dev"
+      src="https://plausible.io/js/script.js"
+    ></script>
+    <CookieConsentComponent client:only="react" />
   </body>
 </html>
 <style is:global>
