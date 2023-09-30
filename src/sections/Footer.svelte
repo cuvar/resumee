@@ -23,10 +23,13 @@
       target="_blank"
       rel="noreferrer noopener">PDF version</a
     >
-    <button
+    <!-- <button
       type="button"
       data-cc="c-settings"
       class="text-center hover:underline active:text-zinc-900">Cookies</button
+    > -->
+    <a href="/imprint" class="text-center hover:underline active:text-zinc-900"
+      >Imprint</a
     >
   </div>
 </footer>
