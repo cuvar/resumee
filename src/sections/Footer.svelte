@@ -2,7 +2,7 @@
   <div
     class="grid grid-cols-1 gap-4 sm:grid-cols-3 md:grid-cols-3 grid-rows-2 md:grid-rows-1 text-sm text-zinc-500"
   >
-    <div class="text-center">February 2023</div>
+    <div class="text-center">October 2023</div>
     <a
       href="https://blinpete-resume.vercel.app/"
       class="hover:underline active:text-zinc-900 text-center"
