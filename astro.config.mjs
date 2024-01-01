@@ -11,5 +11,8 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [svelte(), tailwind(), react()]
+  integrations: [svelte(), tailwind(), react()],
+  redirects: {
+    '/': 'https://cv.cuvar.dev'
+  }
 });
